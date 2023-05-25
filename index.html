@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <title>katik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="katik">
+        <h1>Katik</h1>
+    </div>
+    <div class="KM">
+        <h1>Kalkulator Matematik</h1>
+    </div>
+
+
+    <br><br><br><br><br>
+    <div class="welcome">
+        <h2>Welcome To Katik</h2>
+    </div>
+    <div class="perkenalan">
+        <p>hai sobat selamat datang di katik <br>sebuah web appp sederhana yang berfungsi untuk menghitung
+            nilai luas dan keliling bangun datar</p>
+    </div>
+    <br><br>
+    <div class="luas-persegi">
+        <button id="lp">Luas Persegi</button>
+    </div>
+    <div class="keliling-persegi">
+        <button id="kp">Keliling Persegi</button>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="luas-persegi2">
+        <h2>Luas Persegi</h2>
+    </div>
+    <br><br><br>
+    <div class="gambar-persegi1">
+        <img src="/Folder latihan ngoding/Kalkulator Persegi/Asset/persegi.png" alt="">
+    </div>
+
+    <p>rumus luas persegi yaitu :</p>
+    <div class="rumus-luas-persegi">
+
+        <p>L = S x S</p>
+    </div>
+    <p>Dimana : <br>
+        L = Luas <br>
+        S = Sisi </p>
+
+    <hr>
+    <div class="hitung-luas-persegi">
+        <h2>Hitung Luas Persegi</h2>
+    </div>
+    <br><br>
+    <form action="">
+
+        <input type="number" id="sisi" name="sisi" placeholder="input nilai sisi">
+        <br><br><br>
+        <button id="hitungbuttonluas" type="button">Hitung</button>
+        <br><br><br>
+        <div id="output-luas"></div>
+        <br><br><br>
+        <button id="resetluas" onclick="tombolreset1()">Reset</button>
+    </form>
+    <br><br><br><br>
+    <div class="keliling-persegi2">
+        <h2>Keliling Persegi</h2>
+    </div>
+    <br><br>
+    <div class="gambar-persegi2">
+        <img src="/Folder latihan ngoding/Kalkulator Persegi/Asset/persegi.png" alt="">
+    </div>
+    <p>rumus kelilng persegi yaitu :</p>
+    <div class="rumus-keliling-persegi">
+        <p>K = 4 x S</p>
+    </div>
+    <p>Dimana : <br>
+        K = keliling <br>
+        S = Sisi</p>
+
+    <hr>
+
+    <div class="hitung-keliling-persegi">
+        <h2>Hitung Keliling Persegi</h2>
+    </div>
+    <br><br>
+    <form action="">
+        <input type="number" id="sisi2" name="sisi2" placeholder="input nilai sisi">
+        <br><br><br>
+        <button id="hitungbuttonkeliling" type="button">Hitung</button>
+        <br>
+        <div id="output-keliling"></div>
+        <br><br><br><br><br>
+        <button id="resetkeliling" onclick="tombolreset2()">Reset</button>
+    </form>
+    <script src="logic.js"></script>
+</body>
+
+
+</html>
